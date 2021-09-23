@@ -1,0 +1,189 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container-section {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 640px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+@media screen and (max-width: 1062px) {
+  .container-section {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 941px) {
+  .container-section {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 853px) {
+  .container-section {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 799px) {
+  .container-section {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 690px) {
+  .container-section {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .container-section {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .container-section {
+    width: 100%;
+  }
+}
+.container-section-img-1 {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.container-section-div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-section-div-1 h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 900;
+  color: #1f2f56;
+}
+.container-section-div-1 p {
+  width: 80%;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #7280a7;
+  line-height: 25px;
+  text-align: center;
+}
+.container-section-div-1-aside {
+  display: flex;
+  align-items: center;
+  padding: 20px 35px;
+  margin-bottom: 35px;
+  background-color: #f8f9fe;
+  border-radius: 10px;
+}
+@media screen and (max-width: 920px) {
+  .container-section-div-1-aside {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .container-section-div-1-aside {
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .container-section-div-1-aside {
+    padding: 20px;
+  }
+}
+.container-section-div-1-aside-img-1 {
+  margin-right: 20px;
+}
+@media screen and (max-width: 376px) {
+  .container-section-div-1-aside-img-1 {
+    display: none;
+  }
+}
+.container-section-div-1-aside-div-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 80px;
+}
+.container-section-div-1-aside-div-2 {
+  display: flex;
+  flex-direction: column;
+}
+.container-section-div-1-aside-div-2-span-1 {
+  margin-bottom: 8px;
+  font-weight: 900;
+}
+.container-section-div-1-aside-div-2-span-2 {
+  color: #7280a7;
+}
+.container-section-div-1-aside-link {
+  font-weight: 900;
+  color: #3829e0;
+}
+.container-section-div-1-aside-link:active {
+  color: #776cf1;
+}
+.container-section-div-1-div-2 {
+  display: flex;
+  flex-direction: column;
+}
+.container-section-div-1-div-2-button-1, .container-section-div-1-div-2-button-2 {
+  font: 700 normal 14px/1em "Red Hat Display", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.container-section-div-1-div-2-button-1 {
+  padding: 15px 100px;
+  margin-bottom: 25px;
+  color: #fff;
+  background-color: #3829e0;
+  border-radius: 10px;
+  box-shadow: 0 12px 15px 0 #d2cefc;
+}
+.container-section-div-1-div-2-button-1:active {
+  background-color: #776cf1;
+}
+@media screen and (max-width: 920px) {
+  .container-section-div-1-div-2-button-1 {
+    padding: 15px 90px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .container-section-div-1-div-2-button-1 {
+    padding: 15px 80px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .container-section-div-1-div-2-button-1 {
+    padding: 15px 58px;
+  }
+}
+.container-section-div-1-div-2-button-2 {
+  color: #7280a7;
+  background-color: transparent;
+}
+.container-section-div-1-div-2-button-2:active {
+  color: #1f2f56;
+}
+.container .container-footer {
+  font-weight: 900;
+}
+.container .container-footer .container-footer-link-1,
+.container .container-footer .container-footer-link-2 {
+  color: #3829e0;
+}
+@media screen and (max-width: 376px) {
+  .container .container-footer {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=desktop.css.map */

@@ -1,0 +1,171 @@
+@use 'variables'
+
+.container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    
+    height: 100vh
+
+    &-section
+        display: flex
+        flex-direction: column
+
+        width: 35%
+        height: 640px
+
+        margin-bottom: 50px
+
+        background-color: #fff
+        border-radius: 20px
+
+        @media screen and (max-width: 1062px)
+            width: 40%
+
+        @media screen and (max-width: 941px)
+            width: 40%
+        
+        @media screen and (max-width: 853px)
+            width: 50%
+        
+        @media screen and (max-width: 799px)
+            width: 50%
+        
+        @media screen and (max-width: 690px)
+            width: 60%
+        
+        @media screen and (max-width: 580px)
+            width: 80%
+
+        @media screen and (max-width: 426px)
+            width: 100%
+        
+        &-img-1
+            max-width: 100%
+            width: 100%
+            margin-bottom: 50px
+            border-top-right-radius: 20px
+            border-top-left-radius: 20px
+        
+        &-div-1
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            h1
+                margin-bottom: 30px
+                font-size: 28px
+                font-weight: 900
+                color: variables.$neutral_dark
+
+            p
+                width: 80%
+                margin-bottom: 15px
+                font-size: 16px
+                color: variables.$neutral_desaturated
+                line-height: 25px
+                text-align: center
+
+            &-aside
+                display: flex
+                align-items: center
+
+                padding: 20px 35px
+                margin-bottom: 35px
+                
+                background-color:#f8f9fe
+                border-radius: 10px
+                
+                @media screen and (max-width: 920px)
+                    padding: 20px
+
+                @media screen and (max-width: 449px)
+                    padding: 20px 10px
+
+                @media screen and (max-width: 376px)
+                    padding: 20px
+
+                &-img-1
+                    margin-right: 20px
+
+                    @media screen and (max-width: 376px)
+                        display: none
+
+                &-div-1
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    margin-right: 80px
+
+                &-div-2
+                    display: flex
+                    flex-direction: column
+
+                    &-span-1
+                        margin-bottom: 8px
+                        font-weight: 900
+                    
+                    &-span-2
+                        color: variables.$neutral_desaturated
+
+                &-link
+                    font-weight: 900
+                    color: variables.$primary_bright
+
+                    &:active 
+                        color: #776cf1
+
+            &-div-2
+                display: flex
+                flex-direction: column
+
+                &-button-1,
+                &-button-2
+                    font: 700 normal 14px/1em 'Red Hat Display', sans-serif
+                    border: none
+
+                    cursor: pointer
+
+                &-button-1
+                    padding: 15px 100px
+                    margin-bottom: 25px
+
+                    color: #fff
+
+                    background-color: variables.$primary_bright
+                    border-radius: 10px
+
+                    box-shadow: 0 12px 15px 0 #d2cefc
+
+                    &:active 
+                        background-color: #776cf1
+                    
+                    @media screen and (max-width: 920px)
+                        padding: 15px 90px
+
+                    @media screen and (max-width: 449px)
+                        padding: 15px 80px
+
+                    @media screen and (max-width: 376px)
+                        padding: 15px 58px
+
+                &-button-2
+                    color: variables.$neutral_desaturated
+                    background-color: transparent
+
+                    &:active
+                        color: variables.$neutral_dark
+
+    .container-footer
+        font-weight: 900
+
+        .container-footer-link-1,
+        .container-footer-link-2
+            color: variables.$primary_bright
+
+        @media screen and (max-width: 376px)
+            display: none
+            
+
